@@ -58,7 +58,7 @@ a {
 
 .btn {
 	background-color:#fff;
-    padding: 10px 20px;
+    padding: 10px;
     color: #252529;
     border: none;
 	font-size: 20px;
@@ -86,9 +86,10 @@ h2 {
 }
 
 .profile-details {
+	margin-top: 3rem;
 	background: rgba(0, 0, 0, 0.7);
 	color: #fff;
-	padding: 40px;
+	padding: 1rem;
 	height: auto;
 	/* display: flex;
 	  flex-direction: column;
@@ -96,7 +97,7 @@ h2 {
 	  align-items: center; */
 	max-width: 60%;
 	border-radius: 15px;
-	margin: auto;
+	margin-bottom: 4rem;
 	text-align: center;
 }
 
@@ -233,6 +234,7 @@ footer {
 	nav {
 		height: auto;
 		border-bottom: 0;
+		
 	}
 	nav ul {
 		display: none;
@@ -305,5 +307,18 @@ footer {
 
 	.grid-2 h1 {
 		line-height: 1.2;
+	}
+
+	.profile-details > .social-icons  a{
+		display: none;
+	}
+	.profile-details {
+		width: 100vw;
+		height: 100vh;
+		line-height: none;
+	}
+
+	.dp {
+		display: none;
 	}
 }
